@@ -1,4 +1,6 @@
-# Krystal WHMCS Domain Registrar Module
+<p align="center"><a href="https://krystal.co.uk" target="_blank"><img width="150"src="https://avatars0.githubusercontent.com/u/6998170?v=3&s=200"></a></p>
+
+## Krystal Hosting WHMCS Domain Registrar Module
 A domain registrar for use with WHMCS to resell domains via Krystal.
 
 ## Download
