@@ -1,6 +1,9 @@
 # Krystal WHMCS Domain Registrar Module
 A domain registrar for use with WHMCS to resell domains via Krystal.
 
+## Download
+https://github.com/Krystal-Hosting/krystal-whmcs-domain-registrar-module/archive/master.zip
+
 ## Installation
 1. Copy the `krystal` directory into the respective WHMCS directory in your WHMCS setup: `/whmcs/modules/registrars/`
 2. Go to WHMCS, Setup, Domain Registrars and activate the `Krystal` registrar
