@@ -194,7 +194,7 @@ function krystal_RenewDomain($params)
 
 	try
 	{
-		$API->call("services/domains/" . krystal_getDomainId($API, $params["domainname"]) . "/renew", "POST", [], ["term" => $params["regperiod"]]);
+		$API->call("services/domains/" . krystal_getDomainId($API, $params["domainname"]) . "/renew", "POST", ["use_cc" => (($params["Use_Credit_Card"] == "on") ? "1" : "")], ["term" => $params["regperiod"]]);
 		return ["error" => ""];
 	}
 	catch(\Krystal\API1\Exceptions\Exception $e)
