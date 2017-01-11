@@ -123,6 +123,7 @@ function krystal_RegisterDomain($params)
 				"domain" => $params["domainname"],
 				"term" => $params["regperiod"],
 				"order_type" => "registration",
+				"additional_fields" => $params["additionalfields"],
 				"nameservers" => [$params["ns1"], $params["ns2"], $params["ns3"], $params["ns4"]]
 			],
 			
@@ -162,6 +163,7 @@ function krystal_TransferDomain($params)
 				"domain" => $params["domainname"],
 				"term" => $params["regperiod"],
 				"order_type" => "transfer",
+				"additional_fields" => $params["additionalfields"],
 				"nameservers" => [$params["ns1"], $params["ns2"], $params["ns3"], $params["ns4"]]
 			],
 			
