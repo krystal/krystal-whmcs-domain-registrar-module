@@ -4,7 +4,7 @@
 This is a custom WHMCS module built for our resellers who would like to register domains directly though [us] (https://krystal.co.uk).
 
 ## Installation
-1. Download the module via the following [link](https://github.com/Krystal-Hosting/krystal-whmcs-domain-registrar-module/archive/v1.0.zip)
+1. Download the module via the following [link](https://github.com/Krystal-Hosting/krystal-whmcs-domain-registrar-module/releases/latest)
 1. Copy the `krystal` directory into the respective WHMCS directory in your WHMCS setup: `/whmcs/modules/registrars/`
 2. Go to WHMCS, Setup, Domain Registrars and activate the `Krystal` registrar
 3. Enter your API username and API secret. These can be obtained via your [client area](https://krystal.co.uk/client/account/apikeys).
