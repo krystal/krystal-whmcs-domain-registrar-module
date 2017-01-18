@@ -15,6 +15,12 @@ function krystal_getConfigArray()
 {
 	return
 	[
+		"FriendlyName" =>
+		[
+			"Type" => "System",
+			"Value" => "Krystal Hosting Ltd"
+		],
+		
 		"API_Username" =>
 		[
 			"Type" => "text",
