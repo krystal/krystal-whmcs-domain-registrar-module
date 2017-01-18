@@ -277,7 +277,7 @@ function krystal_TransferSync($params)
 
 	try
 	{
-		$domain = $API->call("services/domains/find", "GET", ["domain" => $params["domainname"]])["payload"]["domain"];
+		$domain = $API->call("services/domains/find", "GET", ["domain" => $params["domain"]])["payload"]["domain"];
 		
 		$values = [];
 		
@@ -308,7 +308,7 @@ function krystal_Sync($params)
 
 	try
 	{
-		$domain = $API->call("services/domains/find", "GET", ["domain" => $params["domainname"]])["payload"]["domain"];
+		$domain = $API->call("services/domains/find", "GET", ["domain" => $params["domain"]])["payload"]["domain"];
 		
 		$values = [];
 		
