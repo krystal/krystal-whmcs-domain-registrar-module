@@ -70,7 +70,8 @@ class API
 		
 		// Set options
 		curl_setopt($cURL, CURLOPT_RETURNTRANSFER, 1);
-		
+		curl_setopt($cURL, CURLOPT_FOLLOWLOCATION, true);
+
 		// Set headers
 		$headers = [];
 		$headers[] = "X-HTTP-Method-Override: {$method}";
@@ -119,4 +120,3 @@ class API
 		return $response;
 	}
 }
-
