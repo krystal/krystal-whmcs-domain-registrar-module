@@ -1,4 +1,4 @@
-<p align="center"><a href="https://krystal.co.uk" target="_blank"><img width="150"src="https://avatars0.githubusercontent.com/u/6998170?v=3&s=200"></a></p>
+<p align="center"><a href="https://krystal.uk" target="_blank"><img width="150"src="https://avatars0.githubusercontent.com/u/6998170?v=3&s=200"></a></p>
 
 ## About
 This is a custom WHMCS module built for our resellers who would like to register domains directly though [us] (https://krystal.co.uk).
@@ -16,6 +16,10 @@ If you have any questions or problems please submit a support ticket via our [cl
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within this project, please submit a support ticket via our [client area](https://krystal.co.uk/client). All security vulnerabilities will be promptly addressed.
+
+## Contributing
+
+This project follows Semantic Versioning. To help make this easier, we use the Conventional Commit commit message format, along with Google's release-please tool.
 
 ## License
 

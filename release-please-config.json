@@ -1,0 +1,16 @@
+{
+  "bootstrap-sha": "195259fbf1f77bf6b2a526095298d39d5a81ca55",
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "version-file": "VERSION",
+      "changelog-path": "CHANGELOG.md",
+      "extra-files": [],
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": true,
+      "draft": false,
+      "prerelease": false
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+}
